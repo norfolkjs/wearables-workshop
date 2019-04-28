@@ -25,3 +25,14 @@ You will need a computer with the [Arduino IDE](https://www.arduino.cc/en/Main/S
 * [Color Sequins](https://www.adafruit.com/category/263)
 * [Alligator Clips](https://www.adafruit.com/product/1008)
 * [Conductive Paint Pen](https://www.adafruit.com/product/1306)
+
+### Code Your Microcontroller
+
+* Open the sample code in the Arduino IDE
+* Select "Arduino Gemma" from the Tools/Board Menu
+* Select USBtinyISP from the Tools/Programmer
+* Plug in the Gemma and look for a green light to show that it has power
+* For computers running Windows, you must install the USBtiny drivers
+* Press the button on the Gemma/Trinket until you see
+the red LED pulse (ready to receive data)
+* Click the upload button in the Arduino IDE within 10 seconds to upload the sketch to the Gemma
